@@ -18,6 +18,10 @@ public class Reverse {
     		return x;
         int abs = Math.abs(x);
         boolean isPositive = x>0 ? true : false;
-        while()
+        int v = x;
+        int newVal = 0;
+        while(v>0) {
+        	newVal = v%10
+        }
     }
 }
