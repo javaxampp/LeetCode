@@ -1,6 +1,5 @@
 package interview.top100;
 
-import org.junit.Test;
 
 /**
  * 给你一个 32 位的有符号整数 x ，返回将 x 中的数字部分反转后的结果。 如果反转后整数超过 32 位的有符号整数的范围 [−231,  231 −
@@ -16,7 +15,6 @@ public class Reverse_7 {
 	 * @param x
 	 * @return
 	 */
-	@Test
 	public int reverse_0(int x) {
 		if (x < 10 && x > -10)
 			return x;
