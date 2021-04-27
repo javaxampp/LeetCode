@@ -50,13 +50,25 @@ public class isValidBST_98 {
 	正例：针对与错误典型2来说，需要找一个上下限的值，来规定左子树所有的值均小于根节点的值，
 		遍历完左子树后，对于右子树所有的值均大于根节点的值
 	*/
-	public boolean isValidBST(TreeNode root) {
-		if(root == null)
-			return true;
-		if(root.left!=null && root)
-	}
-	
-	public boolean dfs() {
-		
-	}
+    public int sumNumbers(TreeNode root) {
+    	if(root == null) {
+    		return -1;
+    	}
+    	int sum = 0;
+    	sum = dfs(root, 0);
+    	return sum;
+    }
+    
+    public int dfs(TreeNode node, int sum) {
+    	if(node == null) {
+    		return 0;
+    	}
+    	int val = node.val;
+    	sum = sum*10 +val;
+        if(node.left==null && node.right==null){
+            return sum;
+        }else{
+    	    return dfs(node.left, sum) + dfs(node.right, sum);
+        }
+    }
 }
