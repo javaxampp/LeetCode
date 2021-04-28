@@ -6,6 +6,7 @@ import java.util.List;
 
 import javax.sound.midi.Soundbank;
 
+import interview.tag.doubleindex.SortColors_75;
 import interview.top100.IsPalindrome_9;
 import interview.top100.LetterCombinations_17;
 import interview.top100.Trap_42;
@@ -15,12 +16,12 @@ public class mainApplication {
     public static void main(String[] args) {
 //        IsPalindrome_9 isPalindrome_9 = new IsPalindrome_9();
 //        Trap_42 trap_42 = new Trap_42();
-        int preorder[] = {3,9,20,15,7};
-        int inorder[] = {9,3,15,20,7
-        		
-        };
-        BuildTree_07 buildTree_07 = new BuildTree_07();
-        buildTree_07.buildTree_01(preorder, inorder);
+        int preorder[] = {2,0,2,1,1,0};
+        int inorder[] = {9,3,15,20,7};
+        SortColors_75 main = new SortColors_75();
+        main.sortColors(preorder);
+//        BuildTree_07 buildTree_07 = new BuildTree_07();
+//        buildTree_07.buildTree_01(preorder, inorder);
 //        System.out.println(trap_42.trap_2(height));
 //      int height[] = {4,2,0,3,2,5};
 //        List<Character> list = new ArrayList<Character>();
