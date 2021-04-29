@@ -1,2 +1,8 @@
 /.classpath
 /.project
+/leetCode/bin/
+/out/
+/.idea/
+/LeetCode.iml
+/.settings/
+/.pref

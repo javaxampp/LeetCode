@@ -1,5 +1,6 @@
 package main;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -16,10 +17,12 @@ public class mainApplication {
     public static void main(String[] args) {
 //        IsPalindrome_9 isPalindrome_9 = new IsPalindrome_9();
 //        Trap_42 trap_42 = new Trap_42();
-        int preorder[] = {2,0,2,1,1,0};
-        int inorder[] = {9,3,15,20,7};
-        SortColors_75 main = new SortColors_75();
-        main.sortColors(preorder);
+//        int preorder[] = {2,0,2,1,1,0};
+//        int inorder[] = {9,3,15,20,7};
+//        SortColors_75 main = new SortColors_75();
+//        main.sortColors(preorder);
+        BigInteger bigInteger = new BigInteger("9");
+        System.out.println(bigInteger);
 //        BuildTree_07 buildTree_07 = new BuildTree_07();
 //        buildTree_07.buildTree_01(preorder, inorder);
 //        System.out.println(trap_42.trap_2(height));
